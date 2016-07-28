@@ -6,17 +6,17 @@ const Header = ({loading}) => {
 	return (
 		<nav>
 			A stinkin header
-/*			<IndexLink to="/" activeClassName="active">Home</IndexLink>
+			<IndexLink to="/" activeClassName="active">Home</IndexLink>
 			{" | "}
 			<Link to="/courses" activeClassName="active">Courses</Link>
 			{" | "}
-			<Link to="/about" activeClassName="active">About</Link>*/
+			<Link to="/about" activeClassName="active">About</Link>
 		</nav>
 	);
 };
 
-Header.propTypes = {
+/*Header.propTypes = {
 	loading: PropTypes.bool.isRequired
-};
+};*/
 
 export default Header;
